@@ -1,0 +1,79 @@
+# Ignore .git folders (even nested)
+**/.git/
+
+# Ignore all .env files (root & subdirectories)
+.env
+**/.env
+.env.*
+**/.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+.next/
+.vercel/
+
+# System files
+*.swp
+*.swo
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled files
+*.class
+*.pyc
+*.o
+*.so
+*.exe
+*.dll
+*.out
+
+# Temporary files
+tmp/
+temp/
+.cache/
+coverage/
+
+# Test outputs
+test-output/
+coverage/
+
+# Lock files (optional, uncomment if you don’t want them tracked)
+# package-lock.json
+# yarn.lock
+
+# Misc
+.env.backup
+.env.test
+.env.local
+*.bak
+*.old
+*.orig
+
+# Optional: Ignore uploads/media if applicable
+media/
+uploads/
+staticfiles/
